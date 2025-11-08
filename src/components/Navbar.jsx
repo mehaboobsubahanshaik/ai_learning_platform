@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { signOut } from "../services/dbService.js";
-import { useAuth } from "../services/AuthContext.jsx";
+import { useAuth } from "../services/authContext.jsx";
 import { useState, useEffect } from "react";
 
 export default function Navbar() {

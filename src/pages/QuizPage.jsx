@@ -1,7 +1,7 @@
 // src/pages/QuizPage.jsx
 import { useEffect, useState } from "react";
 import QuizCard from "../components/Quizcard.jsx";
-import { useAuth } from "../services/AuthContext.jsx";
+import { useAuth } from "../services/authContext.jsx";
 import { getQuizQuestions, saveQuizResult } from "../services/dbService.js";
 
 export default function QuizPage() {

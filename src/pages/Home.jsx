@@ -1,4 +1,4 @@
-import { useAuth } from "../services/AuthContext.jsx";
+import { useAuth } from "../services/authContext.jsx";
 import { useNavigate } from "react-router-dom";
 import ChatBot from "../components/ChatBot.jsx";
 import VideoCard from "../components/VideoCard.jsx";

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useAuth } from "../services/AuthContext.jsx";
+import { useAuth } from "../services/authContext.jsx";
 import { getLearningPath } from "../services/dbService.js";
 
 export default function Profile() {

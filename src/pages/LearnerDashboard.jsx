@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import ProgressTracker from "../components/ProgressTracker.jsx";
-import { useAuth } from "../services/AuthContext.jsx";
+import { useAuth } from "../services/authContext.jsx";
 import { getLearningPath, saveLearningPath } from "../services/dbService.js";
 
 export default function LearnerDashboard() {

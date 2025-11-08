@@ -7,7 +7,7 @@ import LearnerDashboard from "./pages/LearnerDashboard.jsx";
 import QuizPage from "./pages/QuizPage.jsx";
 import Profile from "./pages/Profile.jsx";
 import VideoPage from "./pages/VideoPage.jsx";
-import { useAuth } from "./services/AuthContext.jsx";
+import { useAuth } from "./services/authContext.jsx";
 
 export default function App() {
   const { user, loading } = useAuth();

@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { generateLearningPlan } from "../services/aiService.js";
-import { useAuth } from "../services/AuthContext.jsx";
+import { useAuth } from "../services/authContext.jsx";
 import {
   saveChatMessage,
   getChatHistory,
