@@ -15,7 +15,7 @@ export default function Login() {
         await signUpWithEmail(email, password);
         alert("Account created!");
       }
-      window.location.href = "/dashboard";
+      window.location.href = "/";
     } catch (err) {
       alert(err.message);
     }

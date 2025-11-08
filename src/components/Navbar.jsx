@@ -54,7 +54,7 @@ export default function Navbar() {
         // ✅ Desktop Sidebar
         <aside className="sidebar">
           <div className="sidebar-header" style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-            <h2>📘 LearnAI</h2>
+            <h2>📘 AI Learnig Platform</h2>
             <button className="theme-toggle" onClick={toggleTheme}>
               {darkMode ? "☀️" : "🌙"}
             </button>
