@@ -1,0 +1,14 @@
+#root {
+  height: 100%;
+}
+
+.main-content {
+  text-align: left;
+  color: var(--text);
+}
+
+footer {
+  text-align: center;
+  margin-top: 3rem;
+  color: var(--muted);
+}
